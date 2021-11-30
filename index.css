@@ -1,0 +1,9 @@
+.nav{
+    height: 600px;
+    background-image: url(images/noodle.jpg);
+    background-size: auto;   
+}
+.nav a{
+color: white;
+}
+.logo h4{ color: white;}
