@@ -1,9 +1,26 @@
+/* Styling for the navigation bar */
 .nav{
-    height: 600px;
-    background-image: url(images/noodle.jpg);
-    background-size: auto;   
+    background-image: url(/images/noodle5.jpeg);  
+    width: 100%;
+    background-repeat: none;
+    height: 400px;
+    background-size: contain;
 }
 .nav a{
 color: white;
+text-decoration: none;
+margin-inline: 2rem;
 }
-.logo h4{ color: white;}
+.logo{ color: white;
+font-size: 2rem;
+font-weight: bolder;
+margin-top: 30px;
+}
+.leftnav{
+    /* float: right; */
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 20px;
+    display: inline;
+    margin-left: 25rem;
+}
