@@ -49,15 +49,52 @@ font-family: "Oleo Script Swash Caps";
 }
 /* Styling for the about us section */
 .aboutus{
-    border: 2px solid green;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    height: 450px;
+    background-color: #ffffff;
+    
 }
 .rightabout{
-    border: 3px solid red;
+    text-align: left;
+    line-height: 1.5rem;
+    width: 50%;
+    padding-top: 50px;
+    margin-right: 390px;
 }
+/* styling the images */
 .leftabout{
-    border: 3px solid black;
     display: grid;
+    /* grid-template-rows: auto; */
+/* grid-template-columns: 100px 200px 100px ; */
+grid-template-columns: 150px 1fr;
+  grid-template-rows: 150px 1fr 50px;
+grid-gap: 15px;
+width: 50%;  
 }
+
+.subcolumn1 img {
+    height: 150px;
+    margin-left: 270px;
+    padding-top: 50px;
+}
+.subcolumn2 img{
+    height: 169px;
+    width: inherit;
+    margin-left: 439px;
+    padding-top: 50px;
+    margin-top: 20px;
+    
+    
+} 
+.maincolumn img{
+    height: 350px;
+    margin-left: 220px;
+    padding-top: 50px;
+}
+
 .aboutus h4{
     font-size: 2rem;
 font-weight: bolder;
@@ -66,5 +103,10 @@ font-family: "Oleo Script Swash Caps";
 }
 /* Styling for the paragraph in the about us section */
 .aboutus p{
-    color: black;
+    color:#787878;
+    text-align: left;
+}
+/* The Explore button */
+.Explore {
+    margin-top: 35px;
 }
