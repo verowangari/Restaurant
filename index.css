@@ -1,20 +1,22 @@
+
 /* Styling for the navigation bar */
 .nav{
-    background-image: url(/images/noodle5.jpeg);  
+    background-image: url(images/final.png);  
     width: 100%;
-    background-repeat: none;
-    height: 400px;
+    height: 550px;
     background-size: contain;
+
 }
-.nav a{
+.nav a,p{
 color: white;
 text-decoration: none;
 margin-inline: 2rem;
 }
-.logo{ color: white;
+.logo,h1, { color: white;
 font-size: 2rem;
 font-weight: bolder;
 margin-top: 30px;
+font-family: "Oleo Script Swash Caps";
 }
 .leftnav{
     /* float: right; */
@@ -23,4 +25,46 @@ margin-top: 30px;
     padding-top: 20px;
     display: inline;
     margin-left: 25rem;
+}
+.navtext{
+    text-align: center;
+    padding-top: 50px;
+}
+/* Styling for delicious food zone, button and p */
+.navtext h1{
+    font-size: 3rem;   
+}
+.navtext p{
+    line-height: 2rem;
+    font-size: 25px;
+    font-weight: 550px;
+}
+.navtext button, .Explore{
+    padding: 20px;
+    background-color: #e16523;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    font-size: 20px;
+}
+/* Styling for the about us section */
+.aboutus{
+    border: 2px solid green;
+}
+.rightabout{
+    border: 3px solid red;
+}
+.leftabout{
+    border: 3px solid black;
+    display: grid;
+}
+.aboutus h4{
+    font-size: 2rem;
+font-weight: bolder;
+margin-top: 30px;
+font-family: "Oleo Script Swash Caps";
+}
+/* Styling for the paragraph in the about us section */
+.aboutus p{
+    color: black;
 }
