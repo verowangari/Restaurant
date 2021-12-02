@@ -212,9 +212,32 @@ color: #787878;
 .customers h4{
     font-family: "Oleo Script Swash Caps"; 
     padding-top: 20px;
+    font-size: 2rem;
 }
 .customers{
     background-image: url(images/meat.png);
-    height: 500px;
+    height: 550px;
 }
+/* LISTEN TO OUR CUSTOMERS */
+.person1, .person2,.person3{
+    background-color: white;
+    margin-left: 20px;
+    padding-top: 30px;
+}
+.people p{
+    color: #787878;
+}
+.people{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.people img {
+    height: 150px;
+    padding-left: 50px;
 
+}
+.people h5{
+    font-family: "Oleo Script Swash Caps";    
+    text-align: center;
+}
