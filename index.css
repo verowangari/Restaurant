@@ -263,3 +263,15 @@ color: #787878;
     font-size: 1.8rem;
     font-family: "Oleo Script Swash Caps"; 
 }
+/* SECTION ABOVE FOOTER */
+.subfooter{
+    background-color: #1c1c1c;
+}
+.logo1 h5{
+    font-family: "Oleo Script Swash Caps"; 
+    font-size: 1.5rem;
+    color: white;
+}
+.logo1 p{
+    color: #a4a4a4;
+}
