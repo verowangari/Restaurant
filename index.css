@@ -123,10 +123,13 @@ border-bottom-width: 1px;
 #text {
     color:#787878;
     text-align: center;
+    border-bottom: solid 1px #e47337;
 }
 
 .ourmenu p{
     color: #787878;
+    margin-bottom: 40px;
+    
 }
 .firstfourcards img{
     height: 150px;
@@ -156,11 +159,15 @@ border-bottom-width: 1px;
     font-size: 1.2rem;
     margin-right: 20px;
 }
+/* the explore button at the menu section */
 .menuexplore{
-    padding: 20px;
+    padding: 20px 40px 20px 40px;
     background-color: #e16523;
     border: none;
     border-radius: 40px;
     color: white;
     font-size: 20px;
+    margin-left: 43%;
+    margin-top: 40px;
+    
 }
