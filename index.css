@@ -241,3 +241,25 @@ color: #787878;
     font-family: "Oleo Script Swash Caps";    
     text-align: center;
 }
+/* CUSTOMERS SERVED */
+.served{
+    background-image: url(images/served.jpg);
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    background-size: contain;
+
+}
+.served h6{
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+    
+}
+.price1{
+    margin-left: 40px;
+}
+.served h4{
+    font-size: 1.8rem;
+    font-family: "Oleo Script Swash Caps"; 
+}
