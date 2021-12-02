@@ -12,11 +12,12 @@ color: white;
 text-decoration: none;
 margin-inline: 2rem;
 }
-.logo,h1, { color: white;
-font-size: 2rem;
+.logo,h1{ 
+font-size : 2rem;
 font-weight: bolder;
 margin-top: 30px;
 font-family: "Oleo Script Swash Caps";
+color:white;
 }
 .leftnav{
     /* float: right; */
@@ -100,6 +101,8 @@ width: 50%;
 font-weight: bolder;
 margin-top: 30px;
 font-family: "Oleo Script Swash Caps";
+border-bottom: solid #e16523;
+border-bottom-width: 1px;
 }
 /* Styling for the paragraph in the about us section */
 .aboutus p{
@@ -109,4 +112,55 @@ font-family: "Oleo Script Swash Caps";
 /* The Explore button */
 .Explore {
     margin-top: 35px;
+}
+/* STYLING FOR THE MENU SECTION */
+.firstfourcards{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+#text {
+    color:#787878;
+    text-align: center;
+}
+
+.ourmenu p{
+    color: #787878;
+}
+.firstfourcards img{
+    height: 150px;
+}
+.price{
+    background-color: #e47337;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    margin-left: 20px;
+}
+.order{
+    background-color: #fef4ee;
+    color: #e36d2c;
+    border: none;
+    border-radius: 40px;
+    padding: 20px;
+}
+.ourmenu h4{
+    text-align: center;
+    font-family: "Oleo Script Swash Caps";
+    font-size: 2.5rem;
+}
+.card1 h5{
+    font-family: "Oleo Script Swash Caps";
+    font-size: 1.2rem;
+    margin-right: 20px;
+}
+.menuexplore{
+    padding: 20px;
+    background-color: #e16523;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    font-size: 20px;
 }
